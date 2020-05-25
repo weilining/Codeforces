@@ -18,17 +18,18 @@ Formally,
 Two rectangles can touch each other (side or corner), but cannot intersect. Rectangles can also touch the sides of the square but must be completely inside it. You can rotate the rectangles. Take a look at the examples for a better understanding.
 
 ![](https://espresso.codeforces.com/1e598f03ef46e0e02e952a4624168bc6f2799a22.png)
+
 The picture shows a square that contains red and green rectangles.
 
-#Input
+# Input
 The first line contains an integer 𝑡 (1≤𝑡≤10000) —the number of test cases in the input. Then 𝑡 test cases follow.
 
 Each test case is a line containing two integers 𝑎, 𝑏 (1≤𝑎,𝑏≤100) — side lengths of the rectangles.
 
-#Output
+# Output
 Print 𝑡 answers to the test cases. Each answer must be a single integer — minimal area of square land, that contains two rectangles with dimensions 𝑎×𝑏.
 
-#Example
+# Example
 ~~~
 8
 3 2
@@ -40,7 +41,7 @@ Print 𝑡 answers to the test cases. Each answer must be a single integer — m
 7 4
 100 100
 ~~~
-#output
+# output
 ~~~
 16
 16
@@ -51,8 +52,9 @@ Print 𝑡 answers to the test cases. Each answer must be a single integer — m
 64
 40000
 ~~~
-#Note
+# Note
 Below are the answers for the first two test cases:
 
 ![](https://espresso.codeforces.com/1e598f03ef46e0e02e952a4624168bc6f2799a22.png)
+
 ![](https://espresso.codeforces.com/c543a559b4f04d83008aa7bcd6d11c643dba8b4d.png)
